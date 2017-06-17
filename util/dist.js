@@ -41,7 +41,7 @@ builder
     `${baseUrl}/dist/index.dist.js`,
     {
       inject: true,
-      minify: false,
+      minify: true,
       mangle: false,
       sourceMaps: true,
       format: 'umd',
