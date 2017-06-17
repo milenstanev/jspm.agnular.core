@@ -6,10 +6,10 @@ const pjson = require('../package.json');
 
 let builderConfigMeta = {
   "angular-ui/ui-router": {
-    build: false
+    build: true
   },
   "angular/bower-angular": {
-    build: false
+    build: true
   }
 };
 /*for(let key in pjson.jspm.dependencies) {
