@@ -1,1 +1,1 @@
-export {default as default} from './src/index.js';
+import './src/index.js';
