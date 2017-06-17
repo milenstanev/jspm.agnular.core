@@ -4,7 +4,14 @@ const Builder = require('systemjs-builder');
 
 const pjson = require('../package.json');
 
-let builderConfigMeta = {};
+let builderConfigMeta = {
+  "angular-ui/ui-router": {
+    build: false
+  },
+  "angular/bower-angular": {
+    build: false
+  }
+};
 /*for(let key in pjson.jspm.dependencies) {
   builderConfigMeta[key] = {
     build: false
