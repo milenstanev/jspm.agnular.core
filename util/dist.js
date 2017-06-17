@@ -34,7 +34,6 @@ builder.config({
   meta: builderConfigMeta
 });
 
-
 builder
   .buildStatic(
     `${baseUrl}/index.js`,
