@@ -37,7 +37,7 @@ builder.config({
 builder
   .buildStatic(
     `${baseUrl}/index.js`,
-    `${baseUrl}/dist/index.dist.js`,
+    `${baseUrl}/${pjson.name}.js`,
     {
       inject: true,
       minify: true,

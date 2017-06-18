@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "",
   "registry": "github",
-  "main": "dist/index.dist.js",
+  "main": "milenstanev-jspm.angular.core",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "./node_modules/.bin/jspm install -y && ./node_modules/.bin/jspm dl-loader --latest  && jspm dl-loader --babel",
